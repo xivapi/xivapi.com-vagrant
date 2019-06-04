@@ -40,7 +40,7 @@ server {
 server {
     server_name mogboard.local;
     listen 80;
-    listen 443 default_server ssl;
+    listen 443 ssl;
     ssl_certificate /home/vagrant/localhost.crt;
     ssl_certificate_key /home/vagrant/localhost.key;
     root /mogboard/public;
